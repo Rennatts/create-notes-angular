@@ -1,0 +1,12 @@
+.btn_container{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.btn{
+    background: rgb(33, 156, 150);
+    height: 40px;
+    width: 120px;
+    border: none;
+}
