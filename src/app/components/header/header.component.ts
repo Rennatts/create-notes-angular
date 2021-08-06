@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { NoteService } from 'src/app/services/note.service';
+import {Note} from './../../Note';
+
 
 @Component({
   selector: 'app-header',

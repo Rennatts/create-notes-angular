@@ -8,7 +8,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderComponent } from './components/header/header.component';
 import { NotesComponent } from './components/notes/notes.component';
 import { NoteComponent } from './components/note/note.component';
-import { AddbuttonComponent } from './components/addbutton/addbutton.component';
+import { BodyComponent } from './components/body/body.component';
+import { AddNoteComponent } from './components/add-note/add-note.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AddbuttonComponent } from './components/addbutton/addbutton.component';
     HeaderComponent,
     NotesComponent,
     NoteComponent,
-    AddbuttonComponent,
+    BodyComponent,
+    AddNoteComponent,
   ],
   imports: [
     BrowserModule,

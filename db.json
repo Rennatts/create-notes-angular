@@ -1,19 +1,34 @@
 {
-  "posts": [
+  "notes": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "",
+      "text": "Doctors Appointment"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "",
+      "text": "Meeting at School"
+    },
+    {
+      "title": "titulo",
+      "text": "blackpink",
+      "id": 3
+    },
+    {
+      "title": "rrrr",
+      "text": "rrrrr",
+      "id": 4
+    },
+    {
+      "title": "caramba",
+      "text": "acho que deu certo",
+      "id": 5
+    },
+    {
+      "title": "aaaaaaaa",
+      "text": "aaaaaaaaaaa",
+      "id": 6
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
