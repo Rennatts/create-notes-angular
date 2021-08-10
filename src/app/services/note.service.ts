@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import {Observable} from 'rxjs';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {Note} from './../Note';
+import { Observable } from 'rxjs';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Note } from './../Note';
 
 
 const httpOptions = {
@@ -29,10 +29,14 @@ export class NoteService {
   }
 
   addNote(note: Note): Observable <Note>{
+    this.addDate(note);
+
     return this.http.post<Note>(this.apiUrl, note, httpOptions)
   }
 
-
+  private addDate(note: Note){
+    note.date = new Date();
+  }
 
   
 }

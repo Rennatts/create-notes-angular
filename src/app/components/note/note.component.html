@@ -1,6 +1,8 @@
 <div class="note">
-    <h3>{{note.title}} 
-        <fa-icon [ngStyle]="{'color': 'red'}" [icon]= "faTimes" (click)= "onDelete(note)"></fa-icon>  
-    </h3>
-    <p>{{note.text}}</p>  
+    <div>
+        <h3>{{note.title}}</h3>
+        <p>{{note.text}}</p> 
+        <p>{{note.date | date: "short"}}</p>
+    </div>
+    <fa-icon class="delete_icon"  [icon]= "faTimes" (click)= "onDelete(note)"></fa-icon> 
 </div>
