@@ -1,6 +1,6 @@
-import { Note } from './Note';
+import { Note } from './interfaces/Note';
 
-export const NOTES: Note[] = [
+  const NOTES: Note[] = [
     {
       id: 1,
       title: '',
