@@ -49,7 +49,7 @@
 
 }
 
-.add-form button {
+.btn {
     margin-top: 40px;
     padding-top: 7px;
     display: flex;
@@ -64,20 +64,14 @@
     cursor: pointer;
     padding: 13px 0;
     border: 2px solid #bf0ecc;
-    box-shadow: #e37aea -1px 1px, #e37aea -2px 2px, #e37aea -3px 3px,
-    #e37aea -4px 4px, #e37aea -5px 5px, #e37aea -6px 6px, #e37aea -7px 7px,
-    #e37aea -8px 8px;
-    transform: translate3d(8px, -8px, 0);
-    background-color: #e37aea;
+    background-color: #e99aed;
 }
 
-.btn:active{
+.btn:hover{
+    cursor: pointer;
     color: white;
-    box-shadow: #000000 -1px 1px, #000000 -2px 2px, #000000 -3px 3px,
-    #000000 -4px 4px, #000000 -5px 5px, #000000 -6px 6px, #000000 -7px 7px,
-    #000000 -8px 8px;
-    transform: translate3d(8px, -8px, 0);
-    background-color: #1a1515;
+    border: 2px solid #e99aed;
+    background-color: #efaef2;
 }
 
 
